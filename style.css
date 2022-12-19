@@ -1,0 +1,77 @@
+.body {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #666666;
+}
+.title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.help {
+    align-content: center;
+}
+.grid-container {
+    display: grid;
+    justify-items: end;
+    justify-content: end;
+    grid-template-rows: 400px 500px;
+    grid-template-columns: 400px 400px;
+    align-content: center;
+}
+.about {
+    line-height: 1;
+    margin-top: -5px;
+    margin-bottom: 19px;
+    text-align: left;
+    font-size: 30px;
+    height: 100px;
+    width: 400px;
+}
+.h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.div{
+    display: block;
+}
+.number {
+    max-width: max-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 100px;
+}
+.number_item {
+    position: relative;
+}
+.number_count {
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -70px;
+    top: 35px;
+}
+.number_text {
+    color: #666;
+}
